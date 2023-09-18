@@ -1,0 +1,12 @@
+@mixin flex($dir, $justifyContent, $alignItems) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("@assets/fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
